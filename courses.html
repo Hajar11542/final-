@@ -1,40 +1,184 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About Us</title>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <title>Course</title>
+        <style>
+            .custom-section{ 
+                background-color: lightskyblue;
+                padding: 70px;
+                border-radius: 80px;
+                text-align: center;
+            
+            }
+            #d2 { 
+                font-weight: normal;
+                font-size: 16px;
+            }
+           .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+           }  
+            
+           .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+           }
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
+           .card-img-top { 
+            height: 150px;
+            object-fit: cover;
+           }
+        </style>
+        
+      <section class="custom-section"><h1 id="d1">OUR COURSES<h1>
+        <p id="d2">We offer six complete learning sets for courses of six main subjects.<br/>
+            MATHMATICS, BIOLOGY, CHEMISTRY, PHYSICS,ENGLISH, DIGITAL EDUCATION. </P></section><br/><br/>
+        </head>
 
-<body>
+    <body>
+        <div class="container">
+        <div class="row gx-5 gy-5 justify-content-center">
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg fixed-top shadow" style="background-color: skyblue;">
-<div class="container">
+        <div class="col-lg-4 col-md-6">
+        <div class="card h-100 text-center shadow">
 
-<p class="navbar-brand fw-bold m-0">Edu-Vibe Online Academy</p>
 
-<ul class="navbar-nav ms-auto align-items-lg-center">
-<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-<li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
-<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-<li class="nav-item"><a class="nav-link" href="material.html">Materials</a></li>
-<li class="nav-item"><a class="btn btn-primary text-white px-3" href="register.html">Register</a></li>
-</ul>
+     
+    <img src="maths.jpg" class="card-img-top" alt="Mathmatics">
+    <div class="card-body d-flex flex-column">
+    
+    <h5 class="card-title">Mathmatics</h5>
+    <ol class="text-start flex-grow-1">
+        <li>Arithmetic</li>
+        <li>Algebra</li>
+        <li>Geometry</li>
+        <li>Calculus</li>
+        <li>Statistic</li>
+        
+    </ol>
+    </div>
+        </div>
+        </div>
+     
+        
+     <div class="col-lg-4 col-md-6">
+     <div class="card h-100 text-center shadow">
+       <img src="biology.jpg" class="card-img-top" alt="Biology">
+        <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Biology</h5>
+        <ol class="text-start flex-grow-1">
+            <li>Zoology</li>
+            <li>Botany</li>
+            <li>Microbiology</li>
+            <li>Cell biology</li>
+            <li>Genetics</li>
+            <li>Ecology</li>
+            <li>Evolutionary biology</li>
+            <li>Anatomy/Morphology</li>
+            <li>Physiology</li>
+            <li>Molecular biology/Biochemistry</li>
+            
+        </ol>
+        </div>
+     </div>
+     </div>
+     
+    
+     
+      <div class="col-lg-4 col-md-6">
+      <div class="card h-100 text-center shadow">
+      <img src="chem2.jpg" class="card-img-top" alt="Chemistry">
+        <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Chemistry</h5>
+        <ol class="text-start flex-grow-1">
+            <li>Organic </li>
+            <li>Inorganic </li>
+            <li>Physical </li>
+            <li>Analytical</li>
+            <li>Biochemistry</li>
+            
+        </ol>
+        </div>
+        </div>
+      </div>
+        
 
-</div>
-</nav>
 
-<br><br><br>
-<!-- FOOTER -->
-<footer class="text-center p-4 fw-bold" style="background:#a7c7e7;">
-<p>© 2026 Edu-Vibe Online Academy</p>
-</footer>
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 text-center shadow">
+            
+        
+        <img src="phy.jpeg" class="card-img-top" alt="Physics">
+        <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Physics</h5>
+        <ol class="text-start flex-grow-1" >
+            <li>Classical Mechanics</li>
+            <li>Quantum Mechanics</li>
+            <li>Electromagnetism</li>
+            <li>Thermodynamics</li>
+            <li>Optics</li>
+            <li>Relativity</li>
+            <li>Acoustics</li>
+            <li>Astrophysics</li>
+            <li>Nuclear physics</li>
+            
+        </ol>
+        </div>
+            </div>
+          </div>
+        
 
-</body>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 text-center shadow">
+          <img src="eng.jpg" class="card-img-top" alt="English">
+        <div class="card-body d-flex flex-column">
+        <h5 class="card-title">English</h5>
+        <ol class="text-start flex-grow-1">
+            <li>Writing</li>
+            <li>Listening</li>
+            <li> Speaking</li>
+            <li>Reading</li>
+            <li>Intense Grammar and Vocabulary</li>
+            
+        </ol>
+        </div>
+            </div>
+        </div>
+        
+            
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 text-center shadow">
+        <img src="com.jpg" class="card-img-top" alt="Digital">
+        <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Digital Education</h5>
+        <ol class="text-start flex-grow-1">
+            <li>Technical and IT skills</li>
+            <li>Cybersecurity</li>
+            <li>Fexible learning in Media</li>
+            
+        </ol>
+        </div>
+            </div>
+        </div>
+        
+    
+       <div class="col-lg-4 col-md-6">
+        <div class="card h-100 text-center shadow">
+            <div class="card-body d-flex flex-column justify-content-center"> 
+                 <h5 class="card-title">DURATION:</h5>
+        <p>Duration for Science subjects is 12 months.<br/>
+        Duration for English and Digital education is 6 months. </p>
+            </div>
+        </div>
+       </div>
+        </div>
+        </div>
+    
+        
+            
+    </body>
+    
 </html>
