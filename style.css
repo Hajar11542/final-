@@ -3,20 +3,25 @@ body {
     margin: 0;
     background: #fdf6ec;
     color: #333;
+    padding-top: 80px; /* fixed navbar spacing */
 }
 
-/* spacing for fixed navbar */
-body {
-    padding-top: 80px;
-}
-
-/* HEADER BOXES (Home/About/Contact headings) */
+/* FULL-WIDTH HEADER BOX (IMPORTANT CHANGE) */
 .header-box {
+    width: 100%;
+    margin: 0;
+    padding: 40px 20px;
     border: 2px solid #000;
-    border-radius: 10px;
-    padding: 25px;
     background: skyblue;
     text-align: center;
+    border-radius: 0; /* removes side rounding so it touches edges */
+}
+
+/* OPTIONAL: make first section truly edge-to-edge */
+.full-width-section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* TEACHER CARDS images */
@@ -45,7 +50,7 @@ footer {
     color: #0a3d62;
 }
 
-/* NAV LINKS hover */
+/* NAV LINKS */
 .nav-link {
     color: #000 !important;
     font-weight: 500;
